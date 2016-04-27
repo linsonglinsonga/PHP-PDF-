@@ -1,2 +1,0 @@
-# imooc
-My first time
