@@ -28,7 +28,7 @@ for ($pageNo = 1; $pageNo <= $pageCount; $pageNo++)
 
     // use the imported page
     $pdf->useTemplate($templateId);
-
+    // 只设置第一个pdf页面
     if ($pageNo == 1) {
         // 设置字体
         $pdf->SetFont('Arial', '', 10);
