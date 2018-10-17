@@ -30,14 +30,13 @@ for ($pageNo = 1; $pageNo <= $pageCount; $pageNo++)
     $pdf->useTemplate($templateId);
 
     if ($pageNo == 1) {
-
+        // 设置字体
         $pdf->SetFont('Arial', '', 10);
+        // 设置位置
         $pdf->SetXY(50, 70);
+        // 写入内容
         $pdf->Write (7, iconv("utf-8","gbk","皇播"));
-        $pdf->SetXY(61, 78.5);
-        $pdf->Write(7, '1231231231312');
-        $pdf->SetXY(58, 85.5);
-        $pdf->Write(7, '12312312313123');
+
 
     }
 
