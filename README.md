@@ -11,3 +11,5 @@ https://manuals.setasign.com/fpdi-manual/
 
 更新网页
 http://justcoding.iteye.com/blog/2163069
+
+注：中文不乱码
