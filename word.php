@@ -10,7 +10,7 @@ $pdf = new FPDI();
 $pdf->AddGBFont('Arial', '宋体');
 
 // get the page count
-$pageCount = $pdf->setSourceFile('terms.pdf');
+$pageCount = $pdf->setSourceFile('word.pdf');
 
 // iterate through all pages
 for ($pageNo = 1; $pageNo <= $pageCount; $pageNo++)
@@ -33,11 +33,11 @@ for ($pageNo = 1; $pageNo <= $pageCount; $pageNo++)
 
         $pdf->SetFont('Arial', '', 10);
         $pdf->SetXY(50, 70);
-        $pdf->Write (7, iconv("utf-8","gbk","黄渤"));
+        $pdf->Write (7, iconv("utf-8","gbk","皇播"));
         $pdf->SetXY(61, 78.5);
-        $pdf->Write(7, '123456789876543212');
+        $pdf->Write(7, '1231231231312');
         $pdf->SetXY(58, 85.5);
-        $pdf->Write(7, '13121462911');
+        $pdf->Write(7, '12312312313123');
 
     }
 
