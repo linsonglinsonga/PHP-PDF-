@@ -37,7 +37,9 @@ for ($pageNo = 1; $pageNo <= $pageCount; $pageNo++)
         // 写入内容
         $pdf->Write (7, iconv("utf-8","gbk","皇播"));
 
-
+        //插入图片
+        // Image参数：文件，x坐标，y坐标，宽，高
+        // $pdf->Image('timg.jpeg',50,15,44,40);
     }
 
 }
